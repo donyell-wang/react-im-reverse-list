@@ -1,21 +1,45 @@
 {
-  "name": "react-antd-demo-starter",
-  "version": "1.0.0",
+  "name": "react-im-reverse-list",
+  "version": "0.0.1",
+  "description": "A Reverse List for Building IM",
+  "main": "lib/IMReverseList.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel"
+    "start": "parcel ./demo/index.html",
+    "compile": "babel src --out-dir lib"
   },
   "devDependencies": {
+    "antd": "^3.3.1",
+    "babel-cli": "^6.26.0",
     "babel-plugin-import": "^1.6.7",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.6.2"
-  },
-  "dependencies": {
-    "antd": "^3.3.1",
+    "eslint": "^5.1.0",
+    "eslint-plugin-react": "^7.10.0",
+    "less": "^3.7.1",
+    "mockjs": "^1.0.1-beta3",
+    "parcel-bundler": "^1.6.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-hot-loader": "next"
-  }
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "reverse",
+    "im"
+  ],
+  "author": "Daniel Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
 }

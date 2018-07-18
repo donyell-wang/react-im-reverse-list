@@ -1,0 +1,26 @@
+.container{
+  margin: 24px 16px;
+  padding: 24px;
+  background: #fff;
+  display: flex;
+  .message-area{
+    flex-basis: 400px;
+    flex-shrink: 0;
+    height: 300px;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+  }
+  .control-area{
+    margin-left: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    button{
+      margin-bottom: 10px;
+    }
+    .log-area{
+      height: 100px;
+      overflow-y: auto;
+    }
+  }
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './containers/App';
+import Demo from './Demo';
 
 function renderApp() {
   // const App = require('./containers/App').default
-  render(<App />, root);
+  render(<Demo />, root);
 }
 
 renderApp();
